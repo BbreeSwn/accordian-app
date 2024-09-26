@@ -4,6 +4,7 @@ import data from "./data/data";
 import { useState } from "react";
 
 function App() {
+  // eslint-disable-next-line
   const [content, setContent] = useState(data);
   return (
     <main>
